@@ -38,8 +38,6 @@ while True:
         result = "CPU"
     elif user_play > comp_play or (comp_play == 3 and user_play == 1):
         result = "User"
-    else:
-        print("\n !!! UNPRECENDENTED SITUATION !!!\n")
     
     if result == "Tie":
         print("\nIt's a Tie!\n")
